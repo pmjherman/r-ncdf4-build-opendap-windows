@@ -1,0 +1,6 @@
+##PKG_CPPFLAGS=-I/path/to/netcdf/header
+##PKG_LIBS=-L/path/to/netcdf/lib -lnetcdf
+
+PKG_LIBS=@NETCDF_LDFLAGS@
+PKG_CPPFLAGS=@NETCDF_CPPFLAGS@
+

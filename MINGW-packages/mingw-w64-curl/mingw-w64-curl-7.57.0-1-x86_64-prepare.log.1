@@ -1,0 +1,30 @@
+patching file configure.ac
+patching file lib/Makefile.inc
+patching file lib/curl_config.h.in
+Hunk #1 succeeded at 12 with fuzz 2 (offset 3 lines).
+patching file lib/pathtools.c
+patching file lib/pathtools.h
+patching file lib/url.c
+Hunk #2 succeeded at 493 with fuzz 1.
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: subdirectory ares not present
+autoreconf: running: libtoolize --copy --force
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+libtoolize: Remember to add 'LT_INIT' to configure.ac.
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: running: /usr/bin/autoheader --force
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:126: installing './compile'
+configure.ac:127: installing './missing'
+docs/examples/Makefile.am: installing './depcomp'
+autoreconf: Leaving directory `.'

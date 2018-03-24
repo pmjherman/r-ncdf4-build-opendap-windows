@@ -1,0 +1,4 @@
+#! /bin/sh
+
+rm -f config.* R/load.R src/Makevars
+rm -rf autom4te.cache

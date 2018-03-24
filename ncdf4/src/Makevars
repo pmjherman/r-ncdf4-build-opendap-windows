@@ -1,0 +1,6 @@
+##PKG_CPPFLAGS=-I/path/to/netcdf/header
+##PKG_LIBS=-L/path/to/netcdf/lib -lnetcdf
+
+PKG_LIBS=  -Wl,-rpath,/usr/lib -Wl,-rpath,/usr/lib/x86_64-linux-gnu/hdf5/serial -L/usr/lib -L/usr/lib/x86_64-linux-gnu/hdf5/serial -lnetcdf -lhdf5_hl -lhdf5 -lpthread -lsz -lz -ldl -lm -lcurl 
+PKG_CPPFLAGS=-I/usr/include -I/usr/include/hdf5/serial
+

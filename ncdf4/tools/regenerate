@@ -1,0 +1,13 @@
+#!/bin/sh
+
+rm ../Makefile
+rm ../configure
+rm ../src/Makevars
+
+aclocal -I .
+
+autoconf
+
+mv configure ..
+
+

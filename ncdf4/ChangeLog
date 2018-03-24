@@ -1,0 +1,8 @@
+Release 1.0 (2010-02-23): Initial release of the ncdf4 package,
+which provides a high-level R interface to the
+netcdf library, versions 4 and earlier.  Package ncdf4 REPLACES package ncdf, which
+supplied an interface to version 3 of the netcdf library.
+Due to changing coding standards requested by CRAN over
+the years, the NAMES of the functions in ncdf4 are different than the
+names in ncdf.  For example, the function that used to be 
+called "dim.def.ncdf" in ncdf is now called "ncdim_def" in ncdf4. 

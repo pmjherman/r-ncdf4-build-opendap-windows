@@ -1,0 +1,898 @@
+configure: loading site script /mingw64/etc/config.site
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... yes
+checking whether to enable debug build options... no
+checking whether to enable compiler optimizer... (assumed) yes
+checking whether to enable strict compiler warnings... no
+checking whether to enable compiler warnings as errors... no
+checking whether to enable curl debug memory tracking... no
+checking whether to enable hiding of library internal symbols... yes
+checking whether to enable c-ares for DNS lookups... no
+checking whether to disable dependency on -lrt... (assumed no)
+checking for path separator... :
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether to build with code coverage support... no
+checking for grep... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for x86_64-w64-mingw32-ar... no
+checking for ar... /mingw64/bin/ar
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for x86_64-w64-mingw32-gcc... x86_64-w64-mingw32-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.exe
+checking for suffix of executables... .exe
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether x86_64-w64-mingw32-gcc accepts -g... yes
+checking for x86_64-w64-mingw32-gcc option to accept ISO C89... none needed
+checking whether x86_64-w64-mingw32-gcc understands -c and -o together... yes
+checking how to run the C preprocessor... x86_64-w64-mingw32-gcc -E
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking dependency style of x86_64-w64-mingw32-gcc... gcc3
+checking curl version... 7.57.0
+checking build system type... x86_64-w64-mingw32
+checking host system type... x86_64-w64-mingw32
+checking for grep that handles long lines and -e... (cached) /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking if OS is AIX (to define _ALL_SOURCE)... no
+checking if _THREAD_SAFE is already defined... no
+checking if _THREAD_SAFE is actually needed... no
+checking if _THREAD_SAFE is onwards defined... no
+checking if _REENTRANT is already defined... yes
+checking if _REENTRANT is onwards defined... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-w64-mingw32-gcc... C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe
+checking if the linker (C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /mingw64/bin/nm -B
+checking the name lister (/mingw64/bin/nm -B) interface... BSD nm
+checking whether ln -s works... no, using cp -pR
+checking the maximum length of command line arguments... 8192
+checking how to convert x86_64-w64-mingw32 file names to x86_64-w64-mingw32 format... func_convert_file_msys_to_w32
+checking how to convert x86_64-w64-mingw32 file names to toolchain format... func_convert_file_msys_to_w32
+checking for C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe option to reload object files... -r
+checking for x86_64-w64-mingw32-objdump... no
+checking for objdump... objdump
+checking how to recognize dependent libraries... file_magic ^x86 archive import|^x86 DLL
+checking for x86_64-w64-mingw32-dlltool... no
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... func_cygming_dll_for_implib
+checking for x86_64-w64-mingw32-ar... /mingw64/bin/ar
+checking for archiver @FILE support... @
+checking for x86_64-w64-mingw32-strip... no
+checking for strip... strip
+checking for x86_64-w64-mingw32-ranlib... no
+checking for ranlib... ranlib
+checking command to parse /mingw64/bin/nm -B output from x86_64-w64-mingw32-gcc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-w64-mingw32-mt... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... no
+checking for x86_64-w64-mingw32-as... no
+checking for as... as
+checking for x86_64-w64-mingw32-dlltool... dlltool
+checking for x86_64-w64-mingw32-objdump... objdump
+checking for objdir... .libs
+checking if x86_64-w64-mingw32-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-w64-mingw32-gcc option to produce PIC... -DDLL_EXPORT -DPIC
+checking if x86_64-w64-mingw32-gcc PIC flag -DDLL_EXPORT -DPIC works... yes
+checking if x86_64-w64-mingw32-gcc static flag -static works... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... yes
+checking if x86_64-w64-mingw32-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-w64-mingw32-gcc linker (C:/msys64/mingw64/x86_64-w64-mingw32/bin/ld.exe) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... Win32 ld.exe
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether to build shared libraries with -version-info... yes
+checking whether to build shared libraries with -no-undefined... yes
+checking whether to build shared libraries with -mimpure-text... no
+checking whether to build shared libraries with PIC... yes
+checking whether to build static libraries with PIC... no
+checking whether to build shared libraries only... no
+checking whether to build static libraries only... no
+checking for inline... inline
+checking if cpp -P is needed... yes
+checking if cpp -P works... yes
+checking if compiler is DEC/Compaq/HP C... no
+checking if compiler is HP-UX C... no
+checking if compiler is IBM C... no
+checking if compiler is Intel C... no
+checking if compiler is clang... no
+checking if compiler is GNU C... yes
+checking if compiler is LCC... no
+checking if compiler is SGI MIPSpro C... no
+checking if compiler is SGI MIPS C... no
+checking if compiler is SunPro C... no
+checking if compiler is Tiny C... no
+checking if compiler is Watcom C... no
+checking if compiler accepts some basic options... yes
+configure: compiler options added: -Werror-implicit-function-declaration 
+checking if compiler accepts debug disabling options... yes
+configure: compiler options added: 
+checking if compiler optimizer assumed setting might be used... no
+checking if compiler accepts strict warning options... yes
+configure: compiler options added: -Wno-system-headers 
+checking if compiler halts on compilation errors... yes
+checking if compiler halts on negative sized arrays... yes
+checking if compiler halts on function prototype mismatch... yes
+checking if compiler supports hiding library internal symbols... yes
+checking for windows.h... yes
+checking whether build target is a native Windows one... yes
+checking for winsock.h... yes
+checking for winsock2.h... yes
+checking for ws2tcpip.h... yes
+checking for winldap.h... yes
+checking for winber.h... yes
+checking whether build target supports WIN32 file API... yes (large file enabled)
+checking for good-to-use Mac CFLAGS... no
+checking to see if the compiler supports __builtin_available()... no
+checking whether to support http... yes
+checking whether to support ftp... yes
+checking whether to support file... yes
+checking whether to support ldap... yes
+checking whether to support ldaps... yes
+checking whether to support rtsp... yes
+checking whether to support proxies... yes
+checking whether to support dict... yes
+checking whether to support telnet... yes
+checking whether to support tftp... yes
+checking whether to support pop3... yes
+checking whether to support imap... yes
+checking whether to support smb... yes
+checking whether to support smtp... yes
+checking whether to support gopher... yes
+checking whether to provide built-in manual... yes
+checking whether to enable generation of C code... yes
+checking whether to use libgcc... no
+checking if X/Open network library is required... no
+checking for gethostbyname... no
+checking for gethostbyname in -lnsl... no
+checking for gethostbyname in -lsocket... no
+checking for gethostbyname in -lwatt... no
+checking for gethostbyname with both nsl and socket libs... no
+checking for gethostbyname in -lws2_32... yes
+checking for windows.h... (cached) yes
+checking for winsock.h... (cached) yes
+checking for winsock2.h... (cached) yes
+checking for connect in libraries... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for monotonic clock_gettime... yes
+checking for clock_gettime in libraries... no additional lib required
+checking if monotonic clock_gettime works... yes
+checking for x86_64-w64-mingw32-pkg-config... /mingw64/bin/x86_64-w64-mingw32-pkg-config
+checking for zlib options with pkg-config... found
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+configure: found both libz and libz.h header
+checking for BrotliDecoderDecompress in -lbrotlidec... no
+checking brotli/decode.h usability... no
+checking brotli/decode.h presence... no
+checking for brotli/decode.h... no
+checking for lber.h... no
+checking for ldap.h... no
+checking for ldapssl.h... no
+checking for ldap_ssl.h... no
+checking for ldap_init in -l"wldap32"... yes
+checking for ldap_url_parse... no
+checking for ldap_init_fd... no
+checking whether to enable IPv6... yes
+checking if struct sockaddr_in6 has sin6_scope_id member... yes
+checking if argv can be written to... yes
+checking if GSS-API support is requested... no
+checking whether to enable Windows native SSL/TLS (Windows native builds only)... yes
+checking whether to enable Apple OS native SSL/TLS... no
+checking for ssl_version in -laxtls... no
+configure: built with one SSL backend
+checking default CA cert bundle/path... no
+checking whether to use builtin CA store of SSL library... no
+checking for library containing psl_builtin... no
+configure: WARNING: libpsl was not found
+configure: PKG_CONFIG_LIBDIR will be set to "/mingw64/lib/pkgconfig"
+checking for x86_64-w64-mingw32-pkg-config... (cached) /mingw64/bin/x86_64-w64-mingw32-pkg-config
+checking for libmetalink options with pkg-config... found
+checking if libmetalink is recent enough... yes (0.1.3)
+checking for x86_64-w64-mingw32-pkg-config... (cached) /mingw64/bin/x86_64-w64-mingw32-pkg-config
+checking for libssh2 options with pkg-config... found
+checking for libssh2_channel_open_ex in -lssh2... yes
+checking libssh2.h usability... yes
+checking libssh2.h presence... yes
+checking for libssh2.h... yes
+configure: Added C:/msys64/mingw64/lib to LD_LIBRARY_PATH
+checking whether versioned symbols are wanted... no
+checking whether to enable Windows native IDN (Windows native builds only)... yes
+checking if IdnToUnicode can be linked... yes
+checking whether to build with libidn2... no
+checking for ANSI C header files... (cached) yes
+checking for malloc.h... yes
+checking for memory.h... no
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for sys/select.h... no
+checking for sys/socket.h... no
+checking for sys/ioctl.h... no
+checking for sys/uio.h... no
+checking for assert.h... yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for limits.h... yes
+checking for arpa/inet.h... no
+checking for net/if.h... no
+checking for netinet/in.h... no
+checking for sys/un.h... no
+checking for linux/tcp.h... no
+checking for netinet/tcp.h... no
+checking for netdb.h... no
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking for sys/param.h... yes
+checking for termios.h... no
+checking for termio.h... no
+checking for sgtty.h... no
+checking for fcntl.h... yes
+checking for alloca.h... no
+checking for time.h... (cached) yes
+checking for io.h... yes
+checking for pwd.h... no
+checking for utime.h... yes
+checking for sys/utime.h... yes
+checking for sys/poll.h... no
+checking for poll.h... no
+checking for socket.h... no
+checking for sys/resource.h... no
+checking for libgen.h... yes
+checking for locale.h... yes
+checking for errno.h... yes
+checking for stdbool.h... yes
+checking for arpa/tftp.h... no
+checking for sys/filio.h... no
+checking for sys/wait.h... no
+checking for setjmp.h... yes
+checking for an ANSI C-conforming const... yes
+checking for compiler support of C99 variadic macro style... yes
+checking for compiler support of old gcc variadic macro style... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for time.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for struct timeval... yes
+checking run-time libs availability... fine
+checking size of size_t... 8
+checking size of long... 4
+checking size of int... 4
+checking size of short... 2
+checking size of time_t... 8
+checking size of off_t... 8
+checking size of curl_off_t... 8
+checking for long long... yes
+checking if numberLL works... yes
+checking for ssize_t... yes
+checking for bool... yes
+checking for windows.h... (cached) yes
+checking for winsock2.h... (cached) yes
+checking for ws2tcpip.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for curl_socklen_t data type... socklen_t
+checking size of curl_socklen_t... 4
+checking for sys/types.h... (cached) yes
+checking for poll.h... (cached) no
+checking for sys/poll.h... (cached) no
+checking for in_addr_t... no
+checking for in_addr_t equivalent... unsigned long
+checking for struct sockaddr_storage... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for sig_atomic_t... yes
+checking if sig_atomic_t is already defined as volatile... no
+checking return type of signal handlers... void
+checking for sys/select.h... (cached) no
+checking for sys/socket.h... (cached) no
+checking for select... yes
+checking types of args and return type for select... int,fd_set *,struct timeval *,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for recv... yes
+checking types of args and return type for recv... SOCKET,char *,int,int,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for send... yes
+checking types of args and return type for send... SOCKET,const char *,int,int,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for MSG_NOSIGNAL... no
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking if alarm can be linked... yes
+checking if alarm is prototyped... no
+checking if alarm might be used... no
+checking for sys/types.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for libgen.h... (cached) yes
+checking if basename can be linked... yes
+checking if basename is prototyped... yes
+checking if basename is compilable... yes
+checking if basename usage allowed... yes
+checking if basename might be used... yes
+checking for sys/types.h... (cached) yes
+checking for socket.h... (cached) no
+checking if closesocket can be linked... yes
+checking if closesocket is prototyped... yes
+checking if closesocket is compilable... yes
+checking if closesocket usage allowed... yes
+checking if closesocket might be used... yes
+checking if CloseSocket can be linked... no
+checking if CloseSocket might be used... no
+checking if connect can be linked... yes
+checking if connect is prototyped... yes
+checking if connect is compilable... yes
+checking if connect usage allowed... yes
+checking if connect might be used... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for fcntl.h... (cached) yes
+checking if fcntl can be linked... no
+checking if fcntl might be used... no
+checking for sys/types.h... (cached) yes
+checking for stdio.h... yes
+checking if fdopen can be linked... yes
+checking if fdopen is prototyped... yes
+checking if fdopen is compilable... yes
+checking if fdopen usage allowed... yes
+checking if fdopen might be used... yes
+checking for sys/types.h... (cached) yes
+checking for netdb.h... (cached) no
+checking if freeaddrinfo can be linked... yes
+checking if freeaddrinfo is prototyped... yes
+checking if freeaddrinfo is compilable... yes
+checking if freeaddrinfo usage allowed... yes
+checking if freeaddrinfo might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for netinet/in.h... (cached) no
+checking for ifaddrs.h... no
+checking if freeifaddrs can be linked... no
+checking if freeifaddrs might be used... no
+checking for sys/types.h... (cached) yes
+checking for sys/xattr.h... no
+checking if fsetxattr can be linked... no
+checking if fsetxattr might be used... no
+checking if ftruncate can be linked... yes
+checking if ftruncate is prototyped... yes
+checking if ftruncate is compilable... yes
+checking if ftruncate usage allowed... yes
+checking if ftruncate might be used... yes
+checking for sys/types.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking if getaddrinfo can be linked... yes
+checking if getaddrinfo is prototyped... yes
+checking if getaddrinfo is compilable... yes
+checking if getaddrinfo seems to work... yes
+checking if getaddrinfo usage allowed... yes
+checking if getaddrinfo might be used... yes
+checking if getaddrinfo is threadsafe... yes
+checking if gai_strerror can be linked... no
+checking if gai_strerror might be used... no
+checking if gethostbyaddr can be linked... yes
+checking if gethostbyaddr is prototyped... yes
+checking if gethostbyaddr is compilable... yes
+checking if gethostbyaddr usage allowed... yes
+checking if gethostbyaddr might be used... yes
+checking if gethostbyaddr_r can be linked... no
+checking if gethostbyaddr_r might be used... no
+checking if gethostbyname can be linked... yes
+checking if gethostbyname is prototyped... yes
+checking if gethostbyname is compilable... yes
+checking if gethostbyname usage allowed... yes
+checking if gethostbyname might be used... yes
+checking if gethostbyname_r can be linked... no
+checking if gethostbyname_r might be used... no
+checking if gethostname can be linked... yes
+checking if gethostname is prototyped... yes
+checking if gethostname is compilable... yes
+checking for gethostname arg 2 data type... int
+checking if gethostname usage allowed... yes
+checking if gethostname might be used... yes
+checking if getifaddrs can be linked... no
+checking if getifaddrs might be used... no
+checking if getservbyport_r can be linked... no
+checking if getservbyport_r might be used... no
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for time.h... (cached) yes
+checking if gmtime_r can be linked... no
+checking if gmtime_r might be used... no
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for netinet/in.h... (cached) no
+checking for arpa/inet.h... (cached) no
+checking if inet_ntoa_r can be linked... no
+checking if inet_ntoa_r might be used... no
+checking if inet_ntop can be linked... yes
+checking if inet_ntop is prototyped... no
+checking if inet_ntop might be used... no
+checking if inet_pton can be linked... yes
+checking if inet_pton is prototyped... no
+checking if inet_pton might be used... no
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for sys/ioctl.h... (cached) no
+checking for stropts.h... no
+checking if ioctl can be linked... no
+checking if ioctl might be used... no
+checking if ioctlsocket can be linked... yes
+checking if ioctlsocket is prototyped... yes
+checking if ioctlsocket is compilable... yes
+checking if ioctlsocket usage allowed... yes
+checking if ioctlsocket might be used... yes
+checking if ioctlsocket FIONBIO is compilable... yes
+checking if ioctlsocket FIONBIO usage allowed... yes
+checking if ioctlsocket FIONBIO might be used... yes
+checking if IoctlSocket can be linked... no
+checking if IoctlSocket might be used... no
+checking if localtime_r can be linked... no
+checking if localtime_r might be used... no
+checking if memrchr can be linked... no
+checking if memrchr seems a macro... no
+checking if memrchr might be used... no
+checking if poll can be linked... no
+checking if poll might be used... no
+checking if setsockopt can be linked... yes
+checking if setsockopt is prototyped... yes
+checking if setsockopt is compilable... yes
+checking if setsockopt usage allowed... yes
+checking if setsockopt might be used... yes
+checking if setsockopt SO_NONBLOCK is compilable... no
+checking if setsockopt SO_NONBLOCK might be used... no
+checking for sys/types.h... (cached) yes
+checking for signal.h... (cached) yes
+checking if sigaction can be linked... no
+checking if sigaction might be used... no
+checking if siginterrupt can be linked... no
+checking if siginterrupt might be used... no
+checking if signal can be linked... yes
+checking if signal is prototyped... yes
+checking if signal is compilable... yes
+checking if signal usage allowed... yes
+checking if signal might be used... yes
+checking for sys/types.h... (cached) yes
+checking for setjmp.h... (cached) yes
+checking if sigsetjmp can be linked... no
+checking if sigsetjmp seems a macro... no
+checking if sigsetjmp might be used... no
+checking if socket can be linked... yes
+checking if socket is prototyped... yes
+checking if socket is compilable... yes
+checking if socket usage allowed... yes
+checking if socket might be used... yes
+checking if socketpair can be linked... no
+checking if socketpair might be used... no
+checking if strcasecmp can be linked... yes
+checking if strcasecmp is prototyped... yes
+checking if strcasecmp is compilable... yes
+checking if strcasecmp usage allowed... yes
+checking if strcasecmp might be used... yes
+checking if strcmpi can be linked... yes
+checking if strcmpi is prototyped... yes
+checking if strcmpi is compilable... yes
+checking if strcmpi usage allowed... yes
+checking if strcmpi might be used... yes
+checking if strdup can be linked... yes
+checking if strdup is prototyped... yes
+checking if strdup is compilable... yes
+checking if strdup usage allowed... yes
+checking if strdup might be used... yes
+checking if strerror_r can be linked... no
+checking if strerror_r might be used... no
+checking if stricmp can be linked... yes
+checking if stricmp is prototyped... yes
+checking if stricmp is compilable... yes
+checking if stricmp usage allowed... yes
+checking if stricmp might be used... yes
+checking if strncasecmp can be linked... yes
+checking if strncasecmp is prototyped... yes
+checking if strncasecmp is compilable... yes
+checking if strncasecmp usage allowed... yes
+checking if strncasecmp might be used... yes
+checking if strncmpi can be linked... no
+checking if strncmpi might be used... no
+checking if strnicmp can be linked... yes
+checking if strnicmp is prototyped... yes
+checking if strnicmp is compilable... no
+checking if strnicmp might be used... no
+checking if strstr can be linked... yes
+checking if strstr is prototyped... yes
+checking if strstr is compilable... yes
+checking if strstr usage allowed... yes
+checking if strstr might be used... yes
+checking if strtok_r can be linked... yes
+checking if strtok_r is prototyped... yes
+checking if strtok_r is compilable... yes
+checking if strtok_r usage allowed... no
+checking if strtok_r might be used... no
+checking if strtoll can be linked... yes
+checking if strtoll is prototyped... yes
+checking if strtoll is compilable... yes
+checking if strtoll usage allowed... yes
+checking if strtoll might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/uio.h... (cached) no
+checking if writev can be linked... no
+checking if writev might be used... no
+checking for geteuid... no
+checking deeper for geteuid... but still no
+checking for getpass_r... no
+checking deeper for getpass_r... but still no
+checking for getppid... no
+checking deeper for getppid... but still no
+checking for getpwuid... no
+checking deeper for getpwuid... but still no
+checking for getpwuid_r... no
+checking deeper for getpwuid_r... but still no
+checking for getrlimit... no
+checking deeper for getrlimit... but still no
+checking for gettimeofday... yes
+checking for if_nametoindex... no
+checking deeper for if_nametoindex... but still no
+checking for mach_absolute_time... no
+checking deeper for mach_absolute_time... but still no
+checking for pipe... no
+checking deeper for pipe... but still no
+checking for setlocale... yes
+checking for setmode... yes
+checking for setrlimit... no
+checking deeper for setrlimit... but still no
+checking for utime... yes
+checking for utimes... no
+checking deeper for utimes... but still no
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for netdb.h... (cached) no
+checking for getnameinfo... yes
+checking types of arguments for getnameinfo... const struct sockaddr *,socklen_t,DWORD,int
+checking for stdio.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) no
+checking for netdb.h... (cached) no
+checking for netinet/in.h... (cached) no
+checking for arpa/inet.h... (cached) no
+checking for working NI_WITHSCOPEID... no
+checking how to set a socket into non-blocking mode... ioctlsocket FIONBIO
+checking for perl... /usr/bin/perl
+checking for gnroff... no
+checking for nroff... /usr/bin/nroff
+checking how to use *nroff to get plain text from man pages... -man
+checking whether to enable the threaded resolver... yes
+checking whether to use POSIX threads for threaded resolver... auto
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_create... yes
+checking whether to enable verbose strings... yes
+checking whether to enable SSPI support (Windows native builds only)... yes
+checking whether to enable cryptographic authentication methods... yes
+checking whether to enable NTLM delegation to winbind's helper... no
+checking whether to enable TLS-SRP authentication... yes
+checking whether to enable Unix domain sockets... auto
+checking for struct sockaddr_un.sun_path... no
+checking whether to enable support for cookies... yes
+checking whether hiding of library internal symbols will actually happen... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/examples/Makefile
+config.status: creating docs/libcurl/Makefile
+config.status: creating docs/libcurl/opts/Makefile
+config.status: creating docs/cmdline-opts/Makefile
+config.status: creating include/Makefile
+config.status: creating include/curl/Makefile
+config.status: creating src/Makefile
+config.status: creating lib/Makefile
+config.status: creating scripts/Makefile
+config.status: creating lib/libcurl.vers
+config.status: creating tests/Makefile
+config.status: creating tests/certs/Makefile
+config.status: creating tests/certs/scripts/Makefile
+config.status: creating tests/data/Makefile
+config.status: creating tests/server/Makefile
+config.status: creating tests/libtest/Makefile
+config.status: creating tests/unit/Makefile
+config.status: creating packages/Makefile
+config.status: creating packages/Win32/Makefile
+config.status: creating packages/Win32/cygwin/Makefile
+config.status: creating packages/Linux/Makefile
+config.status: creating packages/Linux/RPM/Makefile
+config.status: creating packages/Linux/RPM/curl.spec
+config.status: creating packages/Linux/RPM/curl-ssl.spec
+config.status: creating packages/Solaris/Makefile
+config.status: creating packages/EPM/curl.list
+config.status: creating packages/EPM/Makefile
+config.status: creating packages/vms/Makefile
+config.status: creating packages/AIX/Makefile
+config.status: creating packages/AIX/RPM/Makefile
+config.status: creating packages/AIX/RPM/curl.spec
+config.status: creating curl-config
+config.status: creating libcurl.pc
+config.status: creating lib/curl_config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: amending lib/Makefile
+configure: amending src/Makefile
+configure: amending tests/unit/Makefile
+configure: amending tests/server/Makefile
+configure: amending tests/libtest/Makefile
+configure: amending docs/examples/Makefile
+configure: Configured to build curl/libcurl:
+
+  curl version:     7.57.0
+  Host setup:       x86_64-w64-mingw32
+  Install prefix:   /mingw64
+  Compiler:         x86_64-w64-mingw32-gcc
+  SSL support:      enabled (Windows-native)
+  SSH support:      enabled (libSSH2)
+  zlib support:     enabled
+  brotli support:   no      (--with-brotli)
+  GSS-API support:  no      (--with-gssapi)
+  TLS-SRP support:  no      (--enable-tls-srp)
+  resolver:         POSIX threaded
+  IPv6 support:     enabled
+  Unix sockets support: no      (--enable-unix-sockets)
+  IDN support:      enabled (Windows-native)
+  Build libcurl:    Shared=yes, Static=yes
+  Built-in manual:  enabled
+  --libcurl option: enabled (--disable-libcurl-option)
+  Verbose errors:   enabled (--disable-verbose)
+  SSPI support:     enabled
+  ca cert bundle:   no
+  ca cert path:     no
+  ca fallback:      no
+  LDAP support:     enabled (winldap)
+  LDAPS support:    enabled
+  RTSP support:     enabled
+  RTMP support:     no      (--with-librtmp)
+  metalink support: enabled
+  PSL support:      no      (libpsl not found)
+  HTTP2 support:    disabled (--with-nghttp2)
+  Protocols:        DICT FILE FTP FTPS GOPHER HTTP HTTPS IMAP IMAPS LDAP LDAPS POP3 POP3S RTSP SCP SFTP SMB SMBS SMTP SMTPS TELNET TFTP
+
+Making all in lib
+make[1]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/lib'
+make  all-am
+make[2]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/lib'
+  CC       libcurl_la-file.lo
+  CC       libcurl_la-timeval.lo
+  CC       libcurl_la-base64.lo
+  CC       libcurl_la-hostip.lo
+  CC       libcurl_la-progress.lo
+  CC       libcurl_la-formdata.lo
+  CC       libcurl_la-cookie.lo
+  CC       libcurl_la-http.lo
+  CC       libcurl_la-sendf.lo
+  CC       libcurl_la-ftp.lo
+  CC       libcurl_la-url.lo
+  CC       libcurl_la-dict.lo
+  CC       libcurl_la-if2ip.lo
+  CC       libcurl_la-speedcheck.lo
+  CC       libcurl_la-ldap.lo
+  CC       libcurl_la-version.lo
+  CC       libcurl_la-getenv.lo
+  CC       libcurl_la-escape.lo
+  CC       libcurl_la-mprintf.lo
+  CC       libcurl_la-telnet.lo
+  CC       libcurl_la-netrc.lo
+  CC       libcurl_la-getinfo.lo
+  CC       libcurl_la-transfer.lo
+  CC       libcurl_la-strcase.lo
+  CC       libcurl_la-easy.lo
+  CC       libcurl_la-security.lo
+  CC       libcurl_la-curl_fnmatch.lo
+  CC       libcurl_la-fileinfo.lo
+  CC       libcurl_la-ftplistparser.lo
+  CC       libcurl_la-wildcard.lo
+  CC       libcurl_la-krb5.lo
+  CC       libcurl_la-memdebug.lo
+  CC       libcurl_la-http_chunks.lo
+  CC       libcurl_la-strtok.lo
+  CC       libcurl_la-connect.lo
+  CC       libcurl_la-llist.lo
+  CC       libcurl_la-hash.lo
+  CC       libcurl_la-multi.lo
+  CC       libcurl_la-content_encoding.lo
+  CC       libcurl_la-share.lo
+  CC       libcurl_la-http_digest.lo
+  CC       libcurl_la-md4.lo
+  CC       libcurl_la-md5.lo
+  CC       libcurl_la-http_negotiate.lo
+  CC       libcurl_la-inet_pton.lo
+  CC       libcurl_la-strtoofft.lo
+  CC       libcurl_la-strerror.lo
+  CC       libcurl_la-amigaos.lo
+  CC       libcurl_la-hostasyn.lo
+  CC       libcurl_la-hostip4.lo
+  CC       libcurl_la-hostip6.lo
+  CC       libcurl_la-hostsyn.lo
+  CC       libcurl_la-inet_ntop.lo
+  CC       libcurl_la-parsedate.lo
+  CC       libcurl_la-select.lo
+  CC       libcurl_la-tftp.lo
+  CC       libcurl_la-splay.lo
+  CC       libcurl_la-strdup.lo
+  CC       libcurl_la-socks.lo
+  CC       libcurl_la-ssh.lo
+  CC       libcurl_la-curl_addrinfo.lo
+  CC       libcurl_la-socks_gssapi.lo
+  CC       libcurl_la-socks_sspi.lo
+  CC       libcurl_la-curl_sspi.lo
+  CC       libcurl_la-slist.lo
+  CC       libcurl_la-nonblock.lo
+  CC       libcurl_la-curl_memrchr.lo
+  CC       libcurl_la-imap.lo
+  CC       libcurl_la-pop3.lo
+  CC       libcurl_la-smtp.lo
+  CC       libcurl_la-pingpong.lo
+  CC       libcurl_la-rtsp.lo
+  CC       libcurl_la-curl_threads.lo
+  CC       libcurl_la-warnless.lo
+  CC       libcurl_la-hmac.lo
+  CC       libcurl_la-curl_rtmp.lo
+  CC       libcurl_la-openldap.lo
+  CC       libcurl_la-curl_gethostname.lo
+  CC       libcurl_la-gopher.lo
+  CC       libcurl_la-idn_win32.lo
+  CC       libcurl_la-http_proxy.lo
+  CC       libcurl_la-non-ascii.lo
+  CC       libcurl_la-asyn-ares.lo
+  CC       libcurl_la-asyn-thread.lo
+  CC       libcurl_la-curl_gssapi.lo
+  CC       libcurl_la-http_ntlm.lo
+  CC       libcurl_la-curl_ntlm_wb.lo
+  CC       libcurl_la-curl_ntlm_core.lo
+  CC       libcurl_la-curl_sasl.lo
+  CC       libcurl_la-rand.lo
+  CC       libcurl_la-curl_multibyte.lo
+  CC       libcurl_la-hostcheck.lo
+  CC       libcurl_la-conncache.lo
+  CC       libcurl_la-pipeline.lo
+  CC       libcurl_la-dotdot.lo
+  CC       libcurl_la-x509asn1.lo
+  CC       libcurl_la-http2.lo
+  CC       libcurl_la-smb.lo
+  CC       libcurl_la-curl_endian.lo
+  CC       libcurl_la-curl_des.lo
+  CC       libcurl_la-system_win32.lo
+  CC       libcurl_la-mime.lo
+  CC       libcurl_la-sha256.lo
+  CC       libcurl_la-setopt.lo
+  CC       libcurl_la-pathtools.lo
+  CC       vauth/libcurl_la-vauth.lo
+  CC       vauth/libcurl_la-cleartext.lo
+  CC       vauth/libcurl_la-cram.lo
+  CC       vauth/libcurl_la-digest.lo
+  CC       vauth/libcurl_la-digest_sspi.lo
+  CC       vauth/libcurl_la-krb5_gssapi.lo
+  CC       vauth/libcurl_la-krb5_sspi.lo
+  CC       vauth/libcurl_la-ntlm.lo
+  CC       vauth/libcurl_la-ntlm_sspi.lo
+  CC       vauth/libcurl_la-oauth2.lo
+  CC       vauth/libcurl_la-spnego_gssapi.lo
+  CC       vauth/libcurl_la-spnego_sspi.lo
+  CC       vtls/libcurl_la-openssl.lo
+  CC       vtls/libcurl_la-gtls.lo
+  CC       vtls/libcurl_la-vtls.lo
+  CC       vtls/libcurl_la-nss.lo
+  CC       vtls/libcurl_la-polarssl.lo
+  CC       vtls/libcurl_la-polarssl_threadlock.lo
+  CC       vtls/libcurl_la-axtls.lo
+  CC       vtls/libcurl_la-cyassl.lo
+  CC       vtls/libcurl_la-schannel.lo
+  CC       vtls/libcurl_la-darwinssl.lo
+  CC       vtls/libcurl_la-gskit.lo
+  CC       vtls/libcurl_la-mbedtls.lo
+  CCLD     libcurl.la
+make[2]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/lib'
+make[1]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/lib'
+Making all in src
+make[1]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/src'
+Making all in ../docs
+make[2]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs'
+Making all in .
+make[3]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs'
+if test "..x" != "../../curl-7.57.0x" -a -e "../../curl-7.57.0/docs/curl.1"; then \
+	cp -fp "../../curl-7.57.0/docs/curl.1" /home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs/curl.1; fi
+cd cmdline-opts && make
+make[4]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs/cmdline-opts'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs/cmdline-opts'
+make[3]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs'
+Making all in cmdline-opts
+make[3]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs/cmdline-opts'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs/cmdline-opts'
+make[2]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/docs'
+make[2]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/src'
+  CC       curl-slist_wc.o
+  CC       curl-tool_binmode.o
+  CC       curl-tool_bname.o
+  CC       curl-tool_cb_dbg.o
+  CC       curl-tool_cb_hdr.o
+  CC       curl-tool_cb_prg.o
+  CC       curl-tool_cb_rea.o
+  CC       curl-tool_cb_see.o
+  CC       curl-tool_cb_wrt.o
+  CC       curl-tool_cfgable.o
+  CC       curl-tool_convert.o
+  CC       curl-tool_dirhie.o
+  CC       curl-tool_doswin.o
+  CC       curl-tool_easysrc.o
+  CC       curl-tool_formparse.o
+  CC       curl-tool_getparam.o
+  CC       curl-tool_getpass.o
+  CC       curl-tool_help.o
+  CC       curl-tool_helpers.o
+  CC       curl-tool_homedir.o
+  CC       curl-tool_hugehelp.o
+  CC       curl-tool_libinfo.o
+  CC       curl-tool_main.o
+  CC       curl-tool_metalink.o
+  CC       curl-tool_msgs.o
+  CC       curl-tool_operate.o
+  CC       curl-tool_operhlp.o
+  CC       curl-tool_panykey.o
+  CC       curl-tool_paramhlp.o
+  CC       curl-tool_parsecfg.o
+  CC       curl-tool_strdup.o
+  CC       curl-tool_setopt.o
+  CC       curl-tool_sleep.o
+  CC       curl-tool_urlglob.o
+  CC       curl-tool_util.o
+  CC       curl-tool_vms.o
+  CC       curl-tool_writeout.o
+  CC       curl-tool_xattr.o
+  CC       ../lib/curl-strtoofft.o
+  CC       ../lib/curl-nonblock.o
+  CC       ../lib/curl-warnless.o
+  CCLD     curl.exe
+make[2]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/src'
+make[1]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64/src'
+make[1]: Entering directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/herman/MINGW-packages/mingw-w64-curl/src/build-x86_64'
